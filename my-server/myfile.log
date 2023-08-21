@@ -1,0 +1,90 @@
+Log file created at: 2023/08/18 15:52:03
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 15:52:03.777320   87905 server.go:37] pprof server listening and serving HTTP on :8081
+I0818 15:52:03.777767   87905 server.go:44] Listening and serving HTTP on :8080
+I0818 15:52:37.573023   87905 logger.go:23] http_request, traceID=544f32c7-719e-4fa3-819a-745ed9fa5ba0, uri=/apis/v1/user/hello?name=22, requestBody=, statusCode=200, elapsed=151.737µs
+Log file created at: 2023/08/18 16:27:48
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 16:27:48.142560   88717 server.go:38] pprof server listening and serving HTTP on :8081
+I0818 16:27:48.144357   88717 server.go:45] Listening and serving HTTP on :8080
+I0818 16:29:22.250567   88717 server.go:50] Shutdown Server ...
+I0818 16:29:22.252041   88717 server.go:57] Server exiting
+Log file created at: 2023/08/18 16:29:26
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 16:29:26.178972   88925 server.go:38] pprof server listening and serving HTTP on :8081
+I0818 16:29:26.179334   88925 server.go:45] Listening and serving HTTP on :8080
+E0818 16:29:29.401519   88925 user.go:32] panic
+I0818 16:36:55.760829   88925 server.go:50] Shutdown Server ...
+I0818 16:36:55.762123   88925 server.go:57] Server exiting
+Log file created at: 2023/08/18 16:36:59
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 16:36:59.885685   90309 server.go:38] pprof server listening and serving HTTP on :8081
+I0818 16:36:59.886007   90309 server.go:45] Listening and serving HTTP on :8080
+E0818 16:37:03.045412   90309 user.go:32] panic
+I0818 16:37:03.045458   90309 recover.go:34] http_request, url=%s, err=%v, brokenPipe=%s/apis/v1/user/hello?name=testpanic error: panic false
+I0818 16:37:03.045469   90309 logger.go:23] http_request, traceID=712d264c-1db7-4040-80f3-65c245eb16dc, uri=/apis/v1/user/hello?name=test, requestBody=, statusCode=200, elapsed=173.089µs
+I0818 16:37:34.991475   90309 server.go:50] Shutdown Server ...
+I0818 16:37:34.992855   90309 server.go:57] Server exiting
+Log file created at: 2023/08/18 16:37:38
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 16:37:38.512316   90397 server.go:38] pprof server listening and serving HTTP on :8081
+I0818 16:37:38.512626   90397 server.go:45] Listening and serving HTTP on :8080
+E0818 16:37:40.228488   90397 user.go:32] panic
+I0818 16:37:40.228532   90397 recover.go:34] http_request, url=%s, err=%+v, brokenPipe=%s/apis/v1/user/hello?name=testpanic error: panic false
+I0818 16:37:40.228545   90397 logger.go:23] http_request, traceID=78e327e0-1ac8-4553-a02d-f7d9c85f21c3, uri=/apis/v1/user/hello?name=test, requestBody=, statusCode=200, elapsed=176.774µs
+I0818 16:40:53.979977   90397 server.go:50] Shutdown Server ...
+I0818 16:40:53.981329   90397 server.go:57] Server exiting
+Log file created at: 2023/08/18 16:40:58
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 16:40:58.018445   90969 server.go:38] pprof server listening and serving HTTP on :8081
+I0818 16:40:58.018747   90969 server.go:45] Listening and serving HTTP on :8080
+I0818 16:40:59.821926   90969 user.go:32] 10
+I0818 16:40:59.821935   90969 user.go:32] 5
+I0818 16:40:59.821938   90969 user.go:32] 3
+I0818 16:40:59.821958   90969 recover.go:34] http_request, url=%s, err=%v, brokenPipe=%s/apis/v1/user/hello?name=testpanic error: runtime error: integer divide by zero false
+I0818 16:40:59.821971   90969 logger.go:23] http_request, traceID=764eb107-d8bb-48fd-a5c1-7c163c198030, uri=/apis/v1/user/hello?name=test, requestBody=, statusCode=200, elapsed=165.657µs
+I0818 16:41:41.047515   90969 server.go:50] Shutdown Server ...
+I0818 16:41:41.048862   90969 server.go:57] Server exiting
+Log file created at: 2023/08/18 16:42:26
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 16:42:26.598576   91236 server.go:38] pprof server listening and serving HTTP on :8081
+I0818 16:42:26.598873   91236 server.go:45] Listening and serving HTTP on :8080
+I0818 16:42:28.524988   91236 user.go:32] 10
+I0818 16:42:28.524997   91236 user.go:32] 5
+I0818 16:42:28.525000   91236 user.go:32] 3
+I0818 16:42:28.525017   91236 recover.go:34] http_request, url=/apis/v1/user/hello?name=test, err=panic error: runtime error: integer divide by zero, brokenPipe=%!s(bool=false)
+I0818 16:42:28.525031   91236 logger.go:23] http_request, traceID=9e7e07e5-11c1-4c43-8088-8a4288f75fca, uri=/apis/v1/user/hello?name=test, requestBody=, statusCode=200, elapsed=162.881µs
+I0818 16:42:40.400797   91236 user.go:32] 10
+I0818 16:42:40.400811   91236 user.go:32] 5
+I0818 16:42:40.400814   91236 user.go:32] 3
+I0818 16:42:40.400822   91236 recover.go:34] http_request, url=/apis/v1/user/hello?name=test, err=panic error: runtime error: integer divide by zero, brokenPipe=%!s(bool=false)
+I0818 16:42:40.400830   91236 logger.go:23] http_request, traceID=41fe1b7f-71dc-4c15-b357-b353a7c73978, uri=/apis/v1/user/hello?name=test, requestBody=, statusCode=200, elapsed=50.951µs
+I0818 16:43:09.056796   91236 server.go:50] Shutdown Server ...
+I0818 16:43:09.058334   91236 server.go:57] Server exiting
+Log file created at: 2023/08/18 16:43:12
+Running on machine: C02FN15AMD6M
+Binary: Built with gc go1.18.9 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0818 16:43:12.815725   91327 server.go:38] pprof server listening and serving HTTP on :8081
+I0818 16:43:12.816311   91327 server.go:45] Listening and serving HTTP on :8080
+I0818 16:43:15.858111   91327 user.go:32] 10
+I0818 16:43:15.858122   91327 user.go:32] 5
+I0818 16:43:15.858125   91327 user.go:32] 3
+I0818 16:43:15.858151   91327 recover.go:34] http_request, url=/apis/v1/user/hello?name=test, err=panic error: runtime error: integer divide by zero, brokenPipe=false
+I0818 16:43:15.858164   91327 logger.go:23] http_request, traceID=c0e52c99-74f8-4fa2-8a00-6bcac52eb2a7, uri=/apis/v1/user/hello?name=test, requestBody=, statusCode=200, elapsed=181.784µs
+I0818 16:45:32.036892   91327 server.go:50] Shutdown Server ...
+I0818 16:45:32.038408   91327 server.go:57] Server exiting

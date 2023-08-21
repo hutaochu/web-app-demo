@@ -1,0 +1,29 @@
+basePath: /apis/v1
+info:
+  contact: {}
+  description: This is api docs of my-server
+  title: my-server
+  version: v0.0.1
+paths:
+  /user/hello:
+    get:
+      consumes:
+      - application/json
+      description: get hello info by name
+      parameters:
+      - description: username
+        in: query
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Get hello info
+      tags:
+      - user
+swagger: "2.0"
